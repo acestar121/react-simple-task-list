@@ -1,0 +1,9 @@
+./server/node_modules
+./server/package-lock.json
+./server/db_data
+./client/node_modules
+./client/package-lock.json
+./client/build
+./client/coverage
+./client/src/components/__snapshots__
+node_modules

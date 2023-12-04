@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "mongod": "npm run db --prefix server",
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run mongod\" \"npm run server\" \"npm run client\"",
+    "server-test": "npm test --prefix server",
+    "client-test": "npm test --prefix client",
+    "test": "concurrently \"npm run server-test\" \"npm run client-test\""
+  }
+}

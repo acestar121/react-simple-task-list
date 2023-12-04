@@ -1,0 +1,3 @@
+What I've done for additional notes:
+- Ensure proper error handling on both the front-end and back-end.
+- Push my code to a Git repository.
